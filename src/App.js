@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import testGif from "./gif1.gif"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={testGif} alt="gif" />
+      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum maiores debitis voluptas quos! Labore optio quo repudiandae itaque qui placeat exercitationem. Id nemo laboriosam sequi, voluptate quam necessitatibus laborum repellat! Sit inventore eos voluptas repellendus! Sit necessitatibus repellat perspiciatis nesciunt hic tempore ab sint, enim cumque quis repudiandae minima reiciendis architecto, porro doloribus nemo, quia numquam excepturi officiis autem vero earum consectetur inventore! Amet illum tenetur, incidunt in cupiditate aut blanditiis qui distinctio. Facilis quis magnam iste cumque laudantium fuga eos adipisci, maxime eaque dolor?</h1>
     </div>
   );
 }
